@@ -4,6 +4,6 @@ Data engineering yaitu pekerjaan yang berkonsentrasi pada pengembangan serta pen
 
 Data pipeline adalah serangkaian tahapan dalam pemrosesan data yang berfungsi untuk mengumpulkan, mentransformasi, dan memindahkan data dari sumbernya kemudian dipindahkan ke tempat penyimpanan data.
 Berikut ini jenis-jenis data pipeline:
-a. Berdasarkan urutan aliran transformasi: ETL(Extract-Transform-Load) dan ELT(Extract-Load-Transform)
-b. Berdasarkan sumber data: Batch Pipeline dan Stream Pipeline
+- Berdasarkan urutan aliran transformasi: ETL(Extract-Transform-Load) dan ELT(Extract-Load-Transform)
+- Berdasarkan sumber data: Batch Pipeline dan Stream Pipeline
 
