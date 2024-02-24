@@ -1,3 +1,0 @@
-tes
-bismillah
-sukses
