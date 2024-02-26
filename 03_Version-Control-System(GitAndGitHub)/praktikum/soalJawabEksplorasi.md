@@ -14,6 +14,8 @@ GitHub flow merupakan alur kerja ringan berbasis cabang (branch). Langkah-langka
 4. Mengevaluasi perubahan melalui diskusi, ulasan kode, dan uji coba.
 5. Menggabungkan perubahan ke master setelah pull request telah disetujui.
 
+Ketika melakukan push ke repository du GitHub, terjadi konflik dengan branchnya (foto terkait konflik dan penanganannya terletak di folder screenshoots)
+
 Code review merupakan kegiatan di mana sesama developer meninjau kode/perubahan kode yang dilakukan sebelum menggabungkan ke branch utama. Tujuan dilakukannya code reviee yaitu ketika developer/kontributor lain selesai mengerjakan suatu masalah atau fitur, developer/kontributor lain dapat memeriksa kode tersebut.
 
 
