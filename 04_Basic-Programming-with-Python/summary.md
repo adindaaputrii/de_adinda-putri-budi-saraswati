@@ -9,21 +9,21 @@ Python merupakan salah satu bahasa pemrograman yang termasuk dalam kategori ting
 **Tipe data** merupakan media atau memori pada komputer yang digunakan untuk menampung informasi atau sebuah nilai. Berikut ini tipe data dari bahasa pemrograman Python:
 1. Boolean: bernilai True (1) atau False (0)
 2. String: menyatakan karakter/kalimat, dapat berupa huruf, angka, dan lain-lain. Penulisannya diapit dengan tanda petik dua (") atau petik satu (')
-    -contoh: "Halo"
+    - contoh: "Halo"
 3. Integer: menyatakan bilangan bulat
-    -contoh: 88 atau 37
+    - contoh: 88 atau 37
 4. Float: menyatakan bilangan yang memiliki koma
-    -contoh: 3.14 atau 95.3
+    - contoh: 3.14 atau 95.3
 5. Hexadesimal: menyatakan bilangan dalam format heksa (bilangan berbasis 16)
-    -contoh: 1d3 atau 5c6
+    - contoh: 1d3 atau 5c6
 6. Complex: menyatakan pasangan angka real dan imajiner
-    -contoh: 1 + 5j
+    - contoh: 1 + 5j
 7. List: data untaian yang menyimpan berbagai tipe data dan isinya **bisa** diubah-ubah, penulisannya menggunakan tanda kurung siku []
-    -contoh: ['abc', 654, 6.88]
+    - contoh: ['abc', 654, 6.88]
 8. Tuple: data untaian yang menyimpan berbagai tipe data tetapi isinya **tidak bisa** diubah-ubah, penulisannya menggunakan tanda kurung lengkung ()
-    -contoh: ('abc', 654, 6.88)
+    - contoh: ('abc', 654, 6.88)
 9. Dictionary: data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai
-    -contoh: {'nama': 'didi', 'umur': 86}
+    - contoh: {'nama': 'didi', 'umur': 86}
 
 
 **Expression** dalam Python adalah kombinasi dari operan dan operator yang menghasilkan suatu nilai atau hasil. Contoh:
