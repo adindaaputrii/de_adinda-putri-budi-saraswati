@@ -26,11 +26,11 @@ Python merupakan salah satu bahasa pemrograman yang termasuk dalam kategori ting
     - contoh: {'nama': 'didi', 'umur': 86}
 
 
-**Expression** dalam Python adalah kombinasi dari operan dan operator yang menghasilkan suatu nilai atau hasil. Contoh:
-a + b = c 
--> "a+b" merupakan expression
--> huruf "a" dan "b" merupakan operan
--> tanda " + " merupakan operator
+**Expression** dalam Python adalah kombinasi dari operan dan operator yang menghasilkan suatu nilai atau hasil. 
+- Contoh: a + b = c 
+    - "a+b" merupakan expression
+    - huruf "a" dan "b" merupakan operan
+    - tanda " + " merupakan operator
 Berikut ini beberapa expression dalam Python:
 1. Arithmetic Expression: expression yang menggunakan operator matematika seperti penjumlahan (+), pengurangan (-), perkalian (*), pembagian (/), sisa bagi (%), perpangkatan (**)
 2. Comparison Expression: expression yang menggunakan operator pembanding, seperti **==**, **!=**, **<** , **>**, **<=** , dan **>=**
