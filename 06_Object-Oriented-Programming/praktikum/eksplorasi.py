@@ -91,7 +91,7 @@ class KelasLatihan(Pelatih):
     def batalkanKelas(self):
         if self.__terpesan > 0:
             self.__terpesan -= 1
-            print("Pemesanan kelas " + self.__jenis_latihan + " telah dibatalkan oleh " + daftar_pelanggan[self.__terpesan].get_nama() + " . Kuota kelas tersisa: " + str(10 + self.__terpesan))
+            print("Kelas " + self.__jenis_latihan + " telah dibatalkan oleh " + daftar_pelanggan[self.__terpesan].get_nama() + " . Kuota kelas tersisa: " + str(10 + self.__terpesan))
         else:
             print("Pesanan kelas " + self.__jenis_latihan + "tidak ada")
 
@@ -107,6 +107,20 @@ class Yoga(KelasLatihan):
         super().tampilkanInfo()
         print("Tingkat kesulitan:", self.__tingkat_kesulitan)
 
+    def pesanKelas(self):
+        if self._KelasLatihan__terpesan < 10:
+            self._KelasLatihan__terpesan += 1
+            print("Pemesanan " + self.get_jenis_latihan() + " oleh " + daftar_pelanggan[self._KelasLatihan__terpesan-1].get_nama() + " berhasil. Kuota kelas tersisa: " + str(10 - self._KelasLatihan__terpesan))
+        else:
+            print("Kelas " + self.get_jenis_latihan() + " sudah penuh")
+
+    def batalkanKelas(self):
+        if self._KelasLatihan__terpesan > 0:
+            self._KelasLatihan__terpesan -= 1
+            print("Pembatalan " + self.get_jenis_latihan() + " oleh " + daftar_pelanggan[self._KelasLatihan__terpesan].get_nama() + " berhasil. Kuota kelas tersisa: " + str(10 + self._KelasLatihan__terpesan))
+        else:
+            print("Pesanan " + self.get_jenis_latihan() + " tidak ada")
+
 class AngkatBeban(KelasLatihan):
     def __init__(self, nama, spesialisasi, tahun_pengalaman, jenis_latihan, jadwal, berat_maksimum):
         super().__init__(nama, spesialisasi, tahun_pengalaman, jenis_latihan, jadwal)
@@ -119,6 +133,19 @@ class AngkatBeban(KelasLatihan):
         super().tampilkanInfo()
         print("Berat maksimum:", self.__berat_maksimum)
 
+    def pesanKelas(self):
+        if self._KelasLatihan__terpesan < 10:
+            self._KelasLatihan__terpesan += 1
+            print("Pemesanan kelas " + self.get_jenis_latihan() + " oleh " + daftar_pelanggan[self._KelasLatihan__terpesan-1].get_nama() + " berhasil. Kuota kelas tersisa: " + str(10 - self._KelasLatihan__terpesan))
+        else:
+            print("Kelas " + self.get_jenis_latihan() + " sudah penuh")
+
+    def batalkanKelas(self):
+        if self._KelasLatihan__terpesan > 0:
+            self._KelasLatihan__terpesan -= 1
+            print("Pembatalan " + self.get_jenis_latihan() + " oleh " + daftar_pelanggan[self._KelasLatihan__terpesan].get_nama() + " berhasil. Kuota kelas tersisa: " + str(10 + self._KelasLatihan__terpesan))
+        else:
+            print("Pesanan kelas " + self.get_jenis_latihan() + " tidak ada")
 
 daftar_pelanggan = [
 Pelanggan("Joni", 46, "C123"),
