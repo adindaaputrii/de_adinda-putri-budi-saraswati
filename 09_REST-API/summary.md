@@ -25,7 +25,7 @@
 2. **2xx (Success)**: kode respon dalam rentang 2xx menunjukkan bahwa request telah berhasil diterima, dipahami, dan diterima oleh server.
 - **200 (OK)**: request berhasil.
 - **201 (Created)**: request telah berhasil dan sumber daya baru telah dibuat.
-- **204 (No Content): request berhasil diproses tetapi tidak ada konten yang akan dikembalikan.
+- **204 (No Content)**: request berhasil diproses tetapi tidak ada konten yang akan dikembalikan.
 
 <br>
 
@@ -37,12 +37,12 @@
 <br>
 
 4. **4xx (Client Error)**: kode respon dalam rentang 4xx menunjukkan bahwa ada kesalahan pada sisi klien yang menyebabkan request tidak dapat diproses oleh server.
-- **400 (Bad Request): request tidak dapat diproses karena sintaks yang tidak valid.
-- **401 (Unauthorized): klien tidak diotorisasi untuk mengakses sumber daya.
-- **404 (Not Found): sumber daya yang diminta tidak ditemukan di server.
+- **400 (Bad Request)**: request tidak dapat diproses karena sintaks yang tidak valid.
+- **401 (Unauthorized)**: klien tidak diotorisasi untuk mengakses sumber daya.
+- **404 (Not Found)**: sumber daya yang diminta tidak ditemukan di server.
 
 <br>
 
 5. **5xx (Server Error)**: kode respon dalam rentang 5xx menunjukkan bahwa server mengalami kesalahan internal yang mencegahnya memenuhi request klien.
-- **500 (Internal Server Error): terjadi kesalahan yang tidak terduga di server.
-- **503 (Service Unavailable): server tidak tersedia untuk menangani request karena overload atau pemeliharaan.
+- **500 (Internal Server Error)**: terjadi kesalahan yang tidak terduga di server.
+- **503 (Service Unavailable)**: server tidak tersedia untuk menangani request karena overload atau pemeliharaan.
