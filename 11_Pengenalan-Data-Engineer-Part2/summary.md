@@ -29,9 +29,11 @@ NoSQL databases dapat dikelompokkan ke dalam beberapa kategori, termasuk:
 
 **OLAP (Online Analytical Processing)** adalah sistem pengolahan data yang terutama digunakan untuk **mengelola analisis data dan laporan**. OLAP menggunakan model data multidimensi, seperti kubus data, dan memiliki tinggi kebutuhan efisiensi dalam pengambilan data dan penganalisis data. OLAP menggunakan model data yang tidak terstruktur, seperti data warehouse, dan memiliki tinggi kebutuhan efisiensi dalam pengambilan data dan penganalisis data. OLAP memiliki keunggulan yang mendukung analisis data dengan tinggi kecepatan, tinggi kemampuan untuk mengelola data yang banyak, dan tinggi kemampuan untuk mengelola analisis data yang kompleks. OLAP digunakan untuk menganalisis data secara agregat untuk mendukung pengambilan keputusan dan analisis bisnis.
 
-    Sebagai contoh, OLTP dapat digunakan untuk mengelola transaksi pembelian dan penjualan di sebuah toko online, sedangkan OLAP dapat digunakan untuk mengelola laporan dan analisis data pembelian dan penjualan di sebuah toko online.
-
-<br><br>
+<p>
+Sebagai contoh, OLTP dapat digunakan untuk mengelola transaksi pembelian dan penjualan di sebuah toko online, sedangkan OLAP dapat digunakan untuk mengelola laporan dan analisis data pembelian dan penjualan di sebuah toko online.
+</p>
+   
+<br>
 
 Perbedaan antara database, data lake, data mart, dan data warehouse adalah sebagai berikut:
 - **Database**: Database adalah sistem pengelolaan data yang mengumpulkan dan mengelola data yang digunakan dalam proses operasi bisnis. Database dapat berisi data yang berbeda, seperti data transaksi, data pelanggan, dan data produk. Database dapat berbasis relasi, seperti MySQL, atau tidak berbasis relasi, seperti MongoDB. Biasanya digunakan untuk aplikasi operasional sehari-hari dan memungkinkan penggunaan transaksi data secara efisien.
@@ -42,6 +44,6 @@ Perbedaan antara database, data lake, data mart, dan data warehouse adalah sebag
 
 - **Data Warehouse**: Data warehouse adalah sistem pengelolaan data yang mengumpulkan dan mengelola data yang digunakan untuk analisis dan kecerdasan bisnis. Data warehouse dapat berisi data yang terstruktur dan yang berhubungan dengan kegiatan bisnis, seperti data transaksi, data pelanggan, dan data produk. Data warehouse dapat digunakan untuk pengolahan data yang terstruktur dan untuk mengelola data yang banyak. Data warehouse mengintegrasikan, membersihkan, dan mengorganisir data menjadi format yang mudah diakses dan dipahami untuk keperluan pelaporan dan analisis.
 
-<br>
-
-    Database dapat digunakan untuk pengelolaan data yang digunakan dalam proses operasi bisnis, sedangkan data lake dapat digunakan untuk pengolahan data yang tidak terstruktur dan untuk mengelola data yang banyak. Data mart dapat digunakan untuk melayani kebutuhan unit bisnis tertentu, sedangkan data warehouse dapat digunakan untuk analisis dan kecerdasan bisnis.
+<p>
+Database dapat digunakan untuk pengelolaan data yang digunakan dalam proses operasi bisnis, sedangkan data lake dapat digunakan untuk pengolahan data yang tidak terstruktur dan untuk mengelola data yang banyak. Data mart dapat digunakan untuk melayani kebutuhan unit bisnis tertentu, sedangkan data warehouse dapat digunakan untuk analisis dan kecerdasan bisnis.
+</p>
