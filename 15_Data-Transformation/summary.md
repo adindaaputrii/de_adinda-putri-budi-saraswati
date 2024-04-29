@@ -154,6 +154,7 @@ Dengan menggabungkan fitur-fitur baru ini, model machine learning dapat lebih ba
 <br><br>
 
 **2. Mengatasi Outlier**
+
 **Outlier**, atau pencilan, adalah nilai yang jauh berbeda dari mayoritas data lainnya. Keberadaan outlier dapat memengaruhi analisis dan pemodelan data secara signifikan, sehingga penting untuk mengidentifikasi dan mengatasi outlier dengan tepat selama transformasi data.
 
 Z-score method dan IQR (Interquartile Range) adalah dua metode umum yang digunakan untuk mengidentifikasi dan menangani outlier dalam transformasi data.
